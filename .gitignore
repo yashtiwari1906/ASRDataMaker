@@ -1,0 +1,8 @@
+task1/Audios/*
+task1/pdf_transcripts/*
+task2/parallel_processed_audios/*
+task2/super_cleaned_audios/*
+task3/text_transcripts/*
+task3/transcripts_fine_details/*
+*.pyc
+.DS_Store
