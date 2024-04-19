@@ -3,7 +3,7 @@ This file will run all the tasks all at once and store the results in their resp
 
 """
 import argparse
-from task1.audioDownload import main as audioDownloader
+from task1.AudioDownload import main as audioDownloader
 from task1.transcriptsDownload import main as pdfTranscriptDownloader
 from task2.musicRemoval import process_audios as audioCleanser
 from task3.pdf2text_converter import ConverterEngine 

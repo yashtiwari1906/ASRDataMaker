@@ -11,6 +11,9 @@ A repo consisting of the scripts to scrape ASR data from NPTEL site
 make a virtual env and intall the dependencies 
 `pip install -r requirements.txt`
 
+## CAUTION:
+Install ffmpeg first in the sudo mode as yt-dlp needs to access it for ubuntu `sudo apt-get install ffmpeg` and for macOS `brew install ffmpeg`
+
 # Quick Demo 
 
 There is a file tathastu.py which contains master logic for running all files so you just need to provide a course_url and number of data points you want to download for this demo
